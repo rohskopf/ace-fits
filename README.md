@@ -28,7 +28,6 @@ More experimenting with lmax and nmax:
 
 |Fit |Num. Descriptors  | Energy MAE (eV/atom)| Notes|
 --- | --- | ---| ---| 
-
 10|109|0.00356| lmax = 1 2 2, nmax = 16 3 3
 11|101|0.00406| Same as 10 but 8 RBFs (nmax = 8 3 3)
 12|113|0.00229| lmax = 1 2 2, nmax = 8 4 3
