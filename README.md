@@ -70,12 +70,13 @@ twojmax = 8, let's try changing lmax to compare with other data points.
 Starting with lmax = 1 :
 
 |Fit |Num. Descriptors  | Energy MAE (eV/atom)| Notes|
---- | --- | ---| ---| ---|
+--- | --- | ---| ---|
 21|17|0.0439| lmax = 1 1 1, nmax = 12 1 1 # let's try decreasing number of descriptors
 
 Let's try decreasing number of descriptors. Here are fits from lmax = 1 to 6 :
 
 |Fit |Num. Descriptors  | Energy MAE (eV/atom)| Force MAE (eV/A)  | Notes|
+--- | --- | ---| ---| ---|
 22|11|0.104|0.143|lmax = 1 1 1, nmax = 2 2 1 # in between POD and SNAP, fine
 23|16|0.0527|0.168|lmax = 1 1 2, nmax = 8 1 1 # higher than POD and SNAP
 24|35|0.00977|0.147|lmax = 1 2 3, nmax = 8 3 1 # agrees with POD and SNAP, fine
