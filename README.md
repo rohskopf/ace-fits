@@ -27,7 +27,7 @@ The following fits use rank up to 3 for similar comparison with SNAP.
 More experimenting with lmax and nmax:
 
 |Fit |Num. Descriptors  | Energy MAE (eV/atom)| Notes|
---- | --- | ---| ---| ---|
+--- | --- | ---| ---| 
 
 10|109|0.00356| lmax = 1 2 2, nmax = 16 3 3
 11|101|0.00406| Same as 10 but 8 RBFs (nmax = 8 3 3)
@@ -70,7 +70,7 @@ twojmax = 8, let's try changing lmax to compare with other data points.
 Starting with lmax = 1 :
 
 |Fit |Num. Descriptors  | Energy MAE (eV/atom)| Notes|
---- | --- | ---| ---|
+--- | --- | ---| ---| ---|
 21|17|0.0439| lmax = 1 1 1, nmax = 12 1 1 # let's try decreasing number of descriptors
 
 Let's try decreasing number of descriptors. Here are fits from lmax = 1 to 6 :
