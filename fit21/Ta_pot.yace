@@ -1,0 +1,19 @@
+elements: [Ta] 
+E0: [-4.926854] 
+deltaSplineBins: 0.001000 
+embeddings:
+  0: {ndensity: 1, FS_parameters: [1.0, 1.0], npoti: FinnisSinclair, rho_core_cutoff: 100000, drho_core_cutoff: 250}
+bonds:
+  [0, 0]: {nradmax: 2, lmax: 1, nradbasemax: 2, radbasename: ChebExpCos, radparameters: [3.059235105], radcoefficients: [[[1, 0], [1, 0]], [[0, 1], [0, 1]]], prehc: 0, lambdahc: 3.059235105, rcut: 4.67637, dcut: 0.01, rcut_in: 0.0, dcut_in: 0.01, inner_cutoff_type: distance}
+functions:
+  0:
+    - {mu0: 0, rank: 1, ndensity: 1, num_ms_combs: 1, mus: [0], ns: [1], ls: [0], ms_combs: [0], ctildes: [-3.6616622026760637]}
+    - {mu0: 0, rank: 1, ndensity: 1, num_ms_combs: 1, mus: [0], ns: [2], ls: [0], ms_combs: [0], ctildes: [6.989636172057772]}
+    - {mu0: 0, rank: 2, ndensity: 1, num_ms_combs: 1, mus: [0, 0], ns: [1, 1], ls: [0, 0], ms_combs: [0, 0], ctildes: [0.24703109323427086]}
+    - {mu0: 0, rank: 2, ndensity: 1, num_ms_combs: 1, mus: [0, 0], ns: [1, 2], ls: [0, 0], ms_combs: [0, 0], ctildes: [0.32304364384114753]}
+    - {mu0: 0, rank: 2, ndensity: 1, num_ms_combs: 1, mus: [0, 0], ns: [2, 2], ls: [0, 0], ms_combs: [0, 0], ctildes: [7.4285650443824]}
+    - {mu0: 0, rank: 2, ndensity: 1, num_ms_combs: 3, mus: [0, 0], ns: [1, 1], ls: [1, 1], ms_combs: [-1, 1, 0, 0, 1, -1], ctildes: [0.1623303048537666, -0.1623303048537666, 0.1623303048537666]}
+    - {mu0: 0, rank: 2, ndensity: 1, num_ms_combs: 3, mus: [0, 0], ns: [1, 2], ls: [1, 1], ms_combs: [-1, 1, 0, 0, 1, -1], ctildes: [1.0547552304403476, -1.0547552304403476, 1.0547552304403476]}
+    - {mu0: 0, rank: 2, ndensity: 1, num_ms_combs: 3, mus: [0, 0], ns: [2, 2], ls: [1, 1], ms_combs: [-1, 1, 0, 0, 1, -1], ctildes: [-16.382682240149474, 16.382682240149474, -16.382682240149474]}
+    - {mu0: 0, rank: 3, ndensity: 1, num_ms_combs: 1, mus: [0, 0, 0], ns: [1, 1, 1], ls: [0, 0, 0], ms_combs: [0, 0, 0], ctildes: [-0.011282260720114845]}
+    - {mu0: 0, rank: 3, ndensity: 1, num_ms_combs: 3, mus: [0, 0, 0], ns: [1, 1, 1], ls: [0, 1, 1], ms_combs: [0, -1, 1, 0, 0, 0, 0, 1, -1], ctildes: [0.05051381359970015, -0.05051381359970015, 0.05051381359970015]}
