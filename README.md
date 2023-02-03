@@ -9,6 +9,8 @@ Then to run MD with the potential, do
 
     lmp -in in.run
 
+An example of stable MD is in `stable-md` directory.
+
 Errors and number of descriptors are listed here:
 
 |Fit |Num. Descriptors  | Energy MAE (eV/atom)| Notes|

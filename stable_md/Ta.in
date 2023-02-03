@@ -1,0 +1,70 @@
+[ACE]
+numTypes = 1
+ranks = 1 2 3
+lmax =  1 2 2
+nmax = 8 2 2
+nmaxbase = 8
+rcutfac = 4.604694451
+lambda = 3.059235105
+type = Ta
+lmin = 0
+bzeroflag = 0
+RPI_heuristic = root_SO3_span
+
+[CALCULATOR]
+calculator = LAMMPSPACE
+energy = 1
+force = 1
+stress = 0
+
+[ESHIFT]
+Ta = 0.0
+
+[SOLVER]
+solver = SVD
+compute_testerrs = 1
+detailed_errors = 1
+
+[SCRAPER]
+scraper = JSON
+
+[PATH]
+dataPath = ../Ta_Linear_JCP2014/JSON
+
+[OUTFILE]
+output_style = PACE
+metrics = Ta_metrics.md
+potential = Ta_pot
+
+[REFERENCE]
+units = metal
+atom_style = atomic
+pair_style = zero 8.0
+pair_coeff = * *
+
+[GROUPS]
+# name size eweight fweight vweight
+group_sections = name training_size testing_size eweight fweight vweight
+group_types = str float float float float float
+smartweights = 0
+random_sampling = 0
+Displaced_A15 =  1.0    0.0 1e-2 1.0 0.0
+Displaced_BCC =  1.0    0.0 1e-2 1.0 0.0
+Displaced_FCC =  1.0    0.0 1e-2 1.0 0.0
+Elastic_BCC   =  1.0    0.0 1e-2 1.0 0.0
+Elastic_FCC   =  1.0    0.0 1e-2 1.0 0.0
+GSF_110       =  1.0    0.0 1e-2 1.0 0.0
+GSF_112       =  1.0    0.0 1e-2 1.0 0.0
+Liquid        =  1.0    0.0 1e-2 1.0 0.0
+Surface       =  1.0    0.0 1e-2 1.0 0.0
+Volume_A15    =  1.0    0.0 1e-2 1.0 0.0
+Volume_BCC    =  1.0    0.0 1e-2 1.0 0.0
+Volume_FCC    =  1.0    0.0 1e-2 1.0 0.0
+
+[EXTRAS]
+dump_descriptors = 1
+dump_truth = 1
+dump_weights = 1
+
+[MEMORY]
+override = 0
