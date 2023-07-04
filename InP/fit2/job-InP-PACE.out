@@ -1,0 +1,42 @@
+no change     /projects/netpub/anaconda3/2022.05/condabin/conda
+no change     /projects/netpub/anaconda3/2022.05/bin/conda
+no change     /projects/netpub/anaconda3/2022.05/bin/conda-env
+no change     /projects/netpub/anaconda3/2022.05/bin/activate
+no change     /projects/netpub/anaconda3/2022.05/bin/deactivate
+no change     /projects/netpub/anaconda3/2022.05/etc/profile.d/conda.sh
+no change     /projects/netpub/anaconda3/2022.05/etc/fish/conf.d/conda.fish
+no change     /projects/netpub/anaconda3/2022.05/shell/condabin/Conda.psm1
+no change     /projects/netpub/anaconda3/2022.05/shell/condabin/conda-hook.ps1
+no change     /projects/netpub/anaconda3/2022.05/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /projects/netpub/anaconda3/2022.05/etc/profile.d/conda.csh
+no change     /ascldap/users/adrohsk/.bashrc
+No action taken.
+
+WARNING: Bulk train size 1 + test size 1 > nfiles 1
+         Forcing testing size to add up properly.
+
+'scrape_configs' took 450.74 ms on rank 0
+'process_configs' took 4873.05 ms on rank 0
+printing fit:  [ -3.2542205   -5.69172737  -3.16830591  22.35140687 -22.40697236
+   8.9161203    5.32019974  -6.46014032   2.94639925  -5.89150157
+  -5.06049476  14.73440407  11.39757455 -11.11817859  -7.45278916
+   3.81071706   2.84460717  -0.42654709   2.73856827  -0.94042559
+   0.40203631   1.42157029  -0.42825589   0.0784784   -0.46451971
+   0.27596369  -0.08188083   0.75433919  -2.29084141   1.07620495
+  -1.13849752  -0.37408661   0.56201141  -0.30509234   0.18174371
+   1.82968182  -0.83281434   1.56248074  -1.96842928   3.5742029
+  -1.88265384  -3.08710793  -0.20932563   1.24691607   0.06895544
+   0.37696209  -1.92296781   1.54046847  -0.64206539   2.63634104
+  -0.72284185   2.93799049  19.51806378 -22.16649491   6.08450822
+   8.48706252  -9.01884802   3.41152008  -5.06049969  -8.02191616
+  11.39755071   3.04245507  -7.45279757   1.27885872   2.84461174
+  -3.98717605   1.15375715  -2.22981818  -0.40079511   1.13015863
+  -0.97180795   2.59053146  -0.52696711   1.67923601  -1.4673524
+   1.14087899   0.2667586   -1.80236051  -0.50001342  -2.09933999
+  -0.29062972   0.65705498  -0.19263861   0.70369867   0.36355056
+  -0.4799321    0.25133953  -0.76560859  -2.06765391  -1.66840738
+  -0.41902569   0.1323639   -0.74628772   0.26091947  -0.70242041
+   1.26922602  -2.04896491   0.4939487 ]
+'fit' took 692.11 ms on rank 0
+'error_analysis' took 1647.79 ms on rank 0
+'write_output' took 1756.87 ms on rank 0
