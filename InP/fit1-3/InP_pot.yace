@@ -1,0 +1,89 @@
+elements: [In, P] 
+E0: [0.958841, 1.173227] 
+deltaSplineBins: 0.001000 
+embeddings:
+  0: {ndensity: 1, FS_parameters: [1.0, 1.0], npoti: FinnisSinclair, rho_core_cutoff: 100000, drho_core_cutoff: 250}
+  1: {ndensity: 1, FS_parameters: [1.0, 1.0], npoti: FinnisSinclair, rho_core_cutoff: 100000, drho_core_cutoff: 250}
+bonds:
+  [0, 0]: {nradmax: 2, lmax: 1, nradbasemax: 2, radbasename: ChebExpCos, radparameters: [1.737], radcoefficients: [[[1, 0], [1, 0]], [[0, 1], [0, 1]]], prehc: 0, lambdahc: 1.737, rcut: 5.790, dcut: 0.01, rcut_in: 1.705, dcut_in: 0.01, inner_cutoff_type: distance}
+  [0, 1]: {nradmax: 2, lmax: 1, nradbasemax: 2, radbasename: ChebExpCos, radparameters: [1.502], radcoefficients: [[[1, 0], [1, 0]], [[0, 1], [0, 1]]], prehc: 0, lambdahc: 1.502, rcut: 5.007, dcut: 0.01, rcut_in: 1.403, dcut_in: 0.01, inner_cutoff_type: distance}
+  [1, 0]: {nradmax: 2, lmax: 1, nradbasemax: 2, radbasename: ChebExpCos, radparameters: [1.502], radcoefficients: [[[1, 0], [1, 0]], [[0, 1], [0, 1]]], prehc: 0, lambdahc: 1.502, rcut: 5.007, dcut: 0.01, rcut_in: 1.403, dcut_in: 0.01, inner_cutoff_type: distance}
+  [1, 1]: {nradmax: 2, lmax: 1, nradbasemax: 2, radbasename: ChebExpCos, radparameters: [1.267], radcoefficients: [[[1, 0], [1, 0]], [[0, 1], [0, 1]]], prehc: 0, lambdahc: 1.267, rcut: 4.224, dcut: 0.01, rcut_in: 1.100, dcut_in: 0.01, inner_cutoff_type: distance}
+functions:
+  0:
+    - {mu0: 0, rank: 1, ndensity: 1, num_ms_combs: 1, mus: [0], ns: [1], ls: [0], ms_combs: [0], ctildes: [0.735244510182838]}
+    - {mu0: 0, rank: 1, ndensity: 1, num_ms_combs: 1, mus: [1], ns: [1], ls: [0], ms_combs: [0], ctildes: [1.4578011005630742]}
+    - {mu0: 0, rank: 1, ndensity: 1, num_ms_combs: 1, mus: [0], ns: [2], ls: [0], ms_combs: [0], ctildes: [-9.371804261949364]}
+    - {mu0: 0, rank: 1, ndensity: 1, num_ms_combs: 1, mus: [1], ns: [2], ls: [0], ms_combs: [0], ctildes: [4.251786387144193]}
+    - {mu0: 0, rank: 2, ndensity: 1, num_ms_combs: 1, mus: [0, 0], ns: [1, 1], ls: [0, 0], ms_combs: [0, 0], ctildes: [0.2877427383922395]}
+    - {mu0: 0, rank: 2, ndensity: 1, num_ms_combs: 1, mus: [0, 1], ns: [1, 1], ls: [0, 0], ms_combs: [0, 0], ctildes: [0.05862296706027337]}
+    - {mu0: 0, rank: 2, ndensity: 1, num_ms_combs: 1, mus: [1, 1], ns: [1, 1], ls: [0, 0], ms_combs: [0, 0], ctildes: [3.3954406154583694]}
+    - {mu0: 0, rank: 2, ndensity: 1, num_ms_combs: 1, mus: [0, 0], ns: [1, 2], ls: [0, 0], ms_combs: [0, 0], ctildes: [-8.021184665320561]}
+    - {mu0: 0, rank: 2, ndensity: 1, num_ms_combs: 1, mus: [0, 1], ns: [1, 2], ls: [0, 0], ms_combs: [0, 0], ctildes: [-0.6050703475207229]}
+    - {mu0: 0, rank: 2, ndensity: 1, num_ms_combs: 1, mus: [1, 1], ns: [1, 2], ls: [0, 0], ms_combs: [0, 0], ctildes: [-18.751497271870903]}
+    - {mu0: 0, rank: 2, ndensity: 1, num_ms_combs: 1, mus: [0, 1], ns: [2, 1], ls: [0, 0], ms_combs: [0, 0], ctildes: [-2.0555374081409354]}
+    - {mu0: 0, rank: 2, ndensity: 1, num_ms_combs: 1, mus: [0, 0], ns: [2, 2], ls: [0, 0], ms_combs: [0, 0], ctildes: [10.761095930596866]}
+    - {mu0: 0, rank: 2, ndensity: 1, num_ms_combs: 1, mus: [0, 1], ns: [2, 2], ls: [0, 0], ms_combs: [0, 0], ctildes: [17.480586198018045]}
+    - {mu0: 0, rank: 2, ndensity: 1, num_ms_combs: 1, mus: [1, 1], ns: [2, 2], ls: [0, 0], ms_combs: [0, 0], ctildes: [28.220797034379984]}
+    - {mu0: 0, rank: 2, ndensity: 1, num_ms_combs: 3, mus: [0, 0], ns: [1, 1], ls: [1, 1], ms_combs: [-1, 1, 0, 0, 1, -1], ctildes: [0.7564279197453379, -0.7564279197453379, 0.7564279197453379]}
+    - {mu0: 0, rank: 2, ndensity: 1, num_ms_combs: 3, mus: [0, 1], ns: [1, 1], ls: [1, 1], ms_combs: [-1, 1, 0, 0, 1, -1], ctildes: [-3.445638506949616, 3.445638506949616, -3.445638506949616]}
+    - {mu0: 0, rank: 2, ndensity: 1, num_ms_combs: 3, mus: [1, 1], ns: [1, 1], ls: [1, 1], ms_combs: [-1, 1, 0, 0, 1, -1], ctildes: [-4.3001191632820825, 4.3001191632820825, -4.3001191632820825]}
+    - {mu0: 0, rank: 2, ndensity: 1, num_ms_combs: 3, mus: [0, 0], ns: [1, 2], ls: [1, 1], ms_combs: [-1, 1, 0, 0, 1, -1], ctildes: [-1.5782170404589715, 1.5782170404589715, -1.5782170404589715]}
+    - {mu0: 0, rank: 2, ndensity: 1, num_ms_combs: 3, mus: [0, 1], ns: [1, 2], ls: [1, 1], ms_combs: [-1, 1, 0, 0, 1, -1], ctildes: [9.124996961045762, -9.124996961045762, 9.124996961045762]}
+    - {mu0: 0, rank: 2, ndensity: 1, num_ms_combs: 3, mus: [1, 1], ns: [1, 2], ls: [1, 1], ms_combs: [-1, 1, 0, 0, 1, -1], ctildes: [17.927086321189194, -17.927086321189194, 17.927086321189194]}
+    - {mu0: 0, rank: 2, ndensity: 1, num_ms_combs: 3, mus: [0, 1], ns: [2, 1], ls: [1, 1], ms_combs: [-1, 1, 0, 0, 1, -1], ctildes: [8.324319449551565, -8.324319449551565, 8.324319449551565]}
+    - {mu0: 0, rank: 2, ndensity: 1, num_ms_combs: 3, mus: [0, 0], ns: [2, 2], ls: [1, 1], ms_combs: [-1, 1, 0, 0, 1, -1], ctildes: [-3.107542463707727, 3.107542463707727, -3.107542463707727]}
+    - {mu0: 0, rank: 2, ndensity: 1, num_ms_combs: 3, mus: [0, 1], ns: [2, 2], ls: [1, 1], ms_combs: [-1, 1, 0, 0, 1, -1], ctildes: [-22.33537255060194, 22.33537255060194, -22.33537255060194]}
+    - {mu0: 0, rank: 2, ndensity: 1, num_ms_combs: 3, mus: [1, 1], ns: [2, 2], ls: [1, 1], ms_combs: [-1, 1, 0, 0, 1, -1], ctildes: [-35.48569588971052, 35.48569588971052, -35.48569588971052]}
+    - {mu0: 0, rank: 3, ndensity: 1, num_ms_combs: 1, mus: [0, 0, 0], ns: [1, 1, 1], ls: [0, 0, 0], ms_combs: [0, 0, 0], ctildes: [0.18944177957946096]}
+    - {mu0: 0, rank: 3, ndensity: 1, num_ms_combs: 1, mus: [0, 0, 1], ns: [1, 1, 1], ls: [0, 0, 0], ms_combs: [0, 0, 0], ctildes: [-0.2520163474329422]}
+    - {mu0: 0, rank: 3, ndensity: 1, num_ms_combs: 1, mus: [0, 1, 1], ns: [1, 1, 1], ls: [0, 0, 0], ms_combs: [0, 0, 0], ctildes: [0.19221510158661204]}
+    - {mu0: 0, rank: 3, ndensity: 1, num_ms_combs: 1, mus: [1, 1, 1], ns: [1, 1, 1], ls: [0, 0, 0], ms_combs: [0, 0, 0], ctildes: [-0.17428399911572967]}
+    - {mu0: 0, rank: 3, ndensity: 1, num_ms_combs: 3, mus: [0, 0, 0], ns: [1, 1, 1], ls: [0, 1, 1], ms_combs: [0, -1, 1, 0, 0, 0, 0, 1, -1], ctildes: [-0.44542665878609644, 0.44542665878609644, -0.44542665878609644]}
+    - {mu0: 0, rank: 3, ndensity: 1, num_ms_combs: 3, mus: [0, 0, 1], ns: [1, 1, 1], ls: [0, 1, 1], ms_combs: [0, -1, 1, 0, 0, 0, 0, 1, -1], ctildes: [1.1580045802245005, -1.1580045802245005, 1.1580045802245005]}
+    - {mu0: 0, rank: 3, ndensity: 1, num_ms_combs: 3, mus: [0, 1, 1], ns: [1, 1, 1], ls: [0, 1, 1], ms_combs: [0, -1, 1, 0, 0, 0, 0, 1, -1], ctildes: [0.17147378361422852, -0.17147378361422852, 0.17147378361422852]}
+    - {mu0: 0, rank: 3, ndensity: 1, num_ms_combs: 3, mus: [1, 1, 1], ns: [1, 1, 1], ls: [0, 1, 1], ms_combs: [0, -1, 1, 0, 0, 0, 0, 1, -1], ctildes: [0.6116375441989642, -0.6116375441989642, 0.6116375441989642]}
+    - {mu0: 0, rank: 3, ndensity: 1, num_ms_combs: 3, mus: [0, 1, 1], ns: [1, 1, 1], ls: [1, 0, 1], ms_combs: [-1, 0, 1, 0, 0, 0, 1, 0, -1], ctildes: [-0.5992537961120772, 0.5992537961120772, -0.5992537961120772]}
+    - {mu0: 0, rank: 3, ndensity: 1, num_ms_combs: 3, mus: [0, 0, 1], ns: [1, 1, 1], ls: [1, 1, 0], ms_combs: [-1, 1, 0, 0, 0, 0, 1, -1, 0], ctildes: [0.19302506752151152, -0.19302506752151152, 0.19302506752151152]}
+  1:
+    - {mu0: 1, rank: 1, ndensity: 1, num_ms_combs: 1, mus: [0], ns: [1], ls: [0], ms_combs: [0], ctildes: [-11.030809795714958]}
+    - {mu0: 1, rank: 1, ndensity: 1, num_ms_combs: 1, mus: [1], ns: [1], ls: [0], ms_combs: [0], ctildes: [-2.5746349613283144]}
+    - {mu0: 1, rank: 1, ndensity: 1, num_ms_combs: 1, mus: [0], ns: [2], ls: [0], ms_combs: [0], ctildes: [4.251783279169786]}
+    - {mu0: 1, rank: 1, ndensity: 1, num_ms_combs: 1, mus: [1], ns: [2], ls: [0], ms_combs: [0], ctildes: [-2.377740310325862]}
+    - {mu0: 1, rank: 2, ndensity: 1, num_ms_combs: 1, mus: [0, 0], ns: [1, 1], ls: [0, 0], ms_combs: [0, 0], ctildes: [5.5782116332309215]}
+    - {mu0: 1, rank: 2, ndensity: 1, num_ms_combs: 1, mus: [0, 1], ns: [1, 1], ls: [0, 0], ms_combs: [0, 0], ctildes: [-4.908815360521658]}
+    - {mu0: 1, rank: 2, ndensity: 1, num_ms_combs: 1, mus: [1, 1], ns: [1, 1], ls: [0, 0], ms_combs: [0, 0], ctildes: [11.938390361140023]}
+    - {mu0: 1, rank: 2, ndensity: 1, num_ms_combs: 1, mus: [0, 0], ns: [1, 2], ls: [0, 0], ms_combs: [0, 0], ctildes: [-40.12397534035654]}
+    - {mu0: 1, rank: 2, ndensity: 1, num_ms_combs: 1, mus: [0, 1], ns: [1, 2], ls: [0, 0], ms_combs: [0, 0], ctildes: [25.83831438672655]}
+    - {mu0: 1, rank: 2, ndensity: 1, num_ms_combs: 1, mus: [1, 1], ns: [1, 2], ls: [0, 0], ms_combs: [0, 0], ctildes: [-52.27944128218974]}
+    - {mu0: 1, rank: 2, ndensity: 1, num_ms_combs: 1, mus: [0, 1], ns: [2, 1], ls: [0, 0], ms_combs: [0, 0], ctildes: [44.21438411448571]}
+    - {mu0: 1, rank: 2, ndensity: 1, num_ms_combs: 1, mus: [0, 0], ns: [2, 2], ls: [0, 0], ms_combs: [0, 0], ctildes: [68.71030394224181]}
+    - {mu0: 1, rank: 2, ndensity: 1, num_ms_combs: 1, mus: [0, 1], ns: [2, 2], ls: [0, 0], ms_combs: [0, 0], ctildes: [-86.33078150426354]}
+    - {mu0: 1, rank: 2, ndensity: 1, num_ms_combs: 1, mus: [1, 1], ns: [2, 2], ls: [0, 0], ms_combs: [0, 0], ctildes: [66.79335473597621]}
+    - {mu0: 1, rank: 2, ndensity: 1, num_ms_combs: 3, mus: [0, 0], ns: [1, 1], ls: [1, 1], ms_combs: [-1, 1, 0, 0, 1, -1], ctildes: [-4.5288800622853085, 4.5288800622853085, -4.5288800622853085]}
+    - {mu0: 1, rank: 2, ndensity: 1, num_ms_combs: 3, mus: [0, 1], ns: [1, 1], ls: [1, 1], ms_combs: [-1, 1, 0, 0, 1, -1], ctildes: [3.5604637122952534, -3.5604637122952534, 3.5604637122952534]}
+    - {mu0: 1, rank: 2, ndensity: 1, num_ms_combs: 3, mus: [1, 1], ns: [1, 1], ls: [1, 1], ms_combs: [-1, 1, 0, 0, 1, -1], ctildes: [5.804760129093358, -5.804760129093358, 5.804760129093358]}
+    - {mu0: 1, rank: 2, ndensity: 1, num_ms_combs: 3, mus: [0, 0], ns: [1, 2], ls: [1, 1], ms_combs: [-1, 1, 0, 0, 1, -1], ctildes: [36.5264083401769, -36.5264083401769, 36.5264083401769]}
+    - {mu0: 1, rank: 2, ndensity: 1, num_ms_combs: 3, mus: [0, 1], ns: [1, 2], ls: [1, 1], ms_combs: [-1, 1, 0, 0, 1, -1], ctildes: [-6.16420525305929, 6.16420525305929, -6.16420525305929]}
+    - {mu0: 1, rank: 2, ndensity: 1, num_ms_combs: 3, mus: [1, 1], ns: [1, 2], ls: [1, 1], ms_combs: [-1, 1, 0, 0, 1, -1], ctildes: [-17.426412774508183, 17.426412774508183, -17.426412774508183]}
+    - {mu0: 1, rank: 2, ndensity: 1, num_ms_combs: 3, mus: [0, 1], ns: [2, 1], ls: [1, 1], ms_combs: [-1, 1, 0, 0, 1, -1], ctildes: [-4.098765686910737, 4.098765686910737, -4.098765686910737]}
+    - {mu0: 1, rank: 2, ndensity: 1, num_ms_combs: 3, mus: [0, 0], ns: [2, 2], ls: [1, 1], ms_combs: [-1, 1, 0, 0, 1, -1], ctildes: [-42.47178151388741, 42.47178151388741, -42.47178151388741]}
+    - {mu0: 1, rank: 2, ndensity: 1, num_ms_combs: 3, mus: [0, 1], ns: [2, 2], ls: [1, 1], ms_combs: [-1, 1, 0, 0, 1, -1], ctildes: [-14.85668643039974, 14.85668643039974, -14.85668643039974]}
+    - {mu0: 1, rank: 2, ndensity: 1, num_ms_combs: 3, mus: [1, 1], ns: [2, 2], ls: [1, 1], ms_combs: [-1, 1, 0, 0, 1, -1], ctildes: [38.96227731545572, -38.96227731545572, 38.96227731545572]}
+    - {mu0: 1, rank: 3, ndensity: 1, num_ms_combs: 1, mus: [0, 0, 0], ns: [1, 1, 1], ls: [0, 0, 0], ms_combs: [0, 0, 0], ctildes: [0.9486180536005122]}
+    - {mu0: 1, rank: 3, ndensity: 1, num_ms_combs: 1, mus: [0, 0, 1], ns: [1, 1, 1], ls: [0, 0, 0], ms_combs: [0, 0, 0], ctildes: [-3.9094761773526443]}
+    - {mu0: 1, rank: 3, ndensity: 1, num_ms_combs: 1, mus: [0, 1, 1], ns: [1, 1, 1], ls: [0, 0, 0], ms_combs: [0, 0, 0], ctildes: [1.681927214909706]}
+    - {mu0: 1, rank: 3, ndensity: 1, num_ms_combs: 1, mus: [1, 1, 1], ns: [1, 1, 1], ls: [0, 0, 0], ms_combs: [0, 0, 0], ctildes: [-1.2718628373224306]}
+    - {mu0: 1, rank: 3, ndensity: 1, num_ms_combs: 3, mus: [0, 0, 0], ns: [1, 1, 1], ls: [0, 1, 1], ms_combs: [0, -1, 1, 0, 0, 0, 0, 1, -1], ctildes: [-2.6040655125179, 2.6040655125179, -2.6040655125179]}
+    - {mu0: 1, rank: 3, ndensity: 1, num_ms_combs: 3, mus: [0, 0, 1], ns: [1, 1, 1], ls: [0, 1, 1], ms_combs: [0, -1, 1, 0, 0, 0, 0, 1, -1], ctildes: [2.346918705132144, -2.346918705132144, 2.346918705132144]}
+    - {mu0: 1, rank: 3, ndensity: 1, num_ms_combs: 3, mus: [0, 1, 1], ns: [1, 1, 1], ls: [0, 1, 1], ms_combs: [0, -1, 1, 0, 0, 0, 0, 1, -1], ctildes: [-3.4238600351022264, 3.4238600351022264, -3.4238600351022264]}
+    - {mu0: 1, rank: 3, ndensity: 1, num_ms_combs: 3, mus: [1, 1, 1], ns: [1, 1, 1], ls: [0, 1, 1], ms_combs: [0, -1, 1, 0, 0, 0, 0, 1, -1], ctildes: [1.7560565820188225, -1.7560565820188225, 1.7560565820188225]}
+    - {mu0: 1, rank: 3, ndensity: 1, num_ms_combs: 3, mus: [0, 1, 1], ns: [1, 1, 1], ls: [1, 0, 1], ms_combs: [-1, 0, 1, 0, 0, 0, 1, 0, -1], ctildes: [-4.656838355031025, 4.656838355031025, -4.656838355031025]}
+    - {mu0: 1, rank: 3, ndensity: 1, num_ms_combs: 3, mus: [0, 0, 1], ns: [1, 1, 1], ls: [1, 1, 0], ms_combs: [-1, 1, 0, 0, 0, 0, 1, -1, 0], ctildes: [1.6635687225935185, -1.6635687225935185, 1.6635687225935185]}
+# This file was generated by FitSNAP.
+# Hash: 158cf2176e8784ae079ceecf4ddd2377
+# FitSNAP REFERENCE section settings:
+# units metal
+# atom_style atomic
+# pair_style hybrid/overlay zero 5.8
+# pair_coeff * * zero

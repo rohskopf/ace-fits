@@ -1,0 +1,51 @@
+no change     /projects/netpub/anaconda3/2022.05/condabin/conda
+no change     /projects/netpub/anaconda3/2022.05/bin/conda
+no change     /projects/netpub/anaconda3/2022.05/bin/conda-env
+no change     /projects/netpub/anaconda3/2022.05/bin/activate
+no change     /projects/netpub/anaconda3/2022.05/bin/deactivate
+no change     /projects/netpub/anaconda3/2022.05/etc/profile.d/conda.sh
+no change     /projects/netpub/anaconda3/2022.05/etc/fish/conf.d/conda.fish
+no change     /projects/netpub/anaconda3/2022.05/shell/condabin/Conda.psm1
+no change     /projects/netpub/anaconda3/2022.05/shell/condabin/conda-hook.ps1
+no change     /projects/netpub/anaconda3/2022.05/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /projects/netpub/anaconda3/2022.05/etc/profile.d/conda.csh
+no change     /ascldap/users/adrohsk/.bashrc
+No action taken.
+Random sampling of groups toggled on.
+FitSNAP-generated seed for random sampling: 14266
+
+WARNING: Bulk train size 1 + test size 1 > nfiles 1
+         Forcing testing size to add up properly.
+
+'scrape_configs' took 467.48 ms on rank 0
+>>> Creating shared arrays
+>>> Created shared arrays
+'process_configs' took 4856.09 ms on rank 0
+printing fit:  [-3.33513697e+00 -3.45785854e+00 -1.92496009e-01  2.09607568e+01
+ -2.25663423e+01  9.71102146e+00  4.62983446e+00 -6.19229382e+00
+  2.89307515e+00 -8.80359833e+00 -6.15845174e+00  1.67925074e+01
+  1.25398548e+01 -1.09814878e+01 -8.25327145e+00  3.03532764e+00
+  2.95552596e+00 -4.60181590e-01  1.70332814e+00 -7.85794639e-01
+ -8.08043340e-03  1.84032910e+00 -1.14014726e+00  1.69021199e-01
+ -6.03492968e-01  5.26741386e-01 -1.55729583e-01  2.25608187e+00
+ -5.22178101e+00  2.67468170e+00 -2.47897178e+00 -9.42921539e-01
+  1.57121967e+00 -8.35022951e-01  6.92009576e-01  5.12401570e+00
+ -1.70268810e+00  1.01622589e+00 -1.35653947e+00  2.64664629e+00
+ -1.23740098e+00 -2.11292452e+00 -1.21042152e+00  8.05681668e-01
+  3.28473287e-01  6.96766459e-02 -1.06922430e+00  8.15660535e-01
+ -3.90458629e-01  1.78977350e+00 -7.69728841e-01  7.04354334e-01
+  2.12361276e+01 -2.31172900e+01  6.40974966e+00  8.49752499e+00
+ -9.04619933e+00  3.44689313e+00 -6.15845378e+00 -9.01015441e+00
+  1.25397859e+01  5.70263985e+00 -8.25327198e+00 -1.59291390e+00
+  2.95552467e+00 -1.75113888e+00 -8.20740208e-01  1.60480438e+00
+ -1.96692811e+00  8.68352694e-01 -3.80340151e-02  2.36796136e+00
+  3.61050215e-02  3.17596515e-02  1.01639307e-01  5.13245514e-01
+  1.77300891e-01 -1.93580800e+00 -7.54528642e-01 -1.92303679e+00
+  3.84959445e-01 -7.24456575e-01  5.69708057e-01 -4.01779123e-02
+ -4.00711938e-01 -4.18254180e-01  4.95276211e-01 -1.00618561e+00
+ -1.55659748e+00 -2.21988924e+00 -1.03551671e+00  1.24800452e+00
+ -5.55350690e-01 -2.67936404e-02 -6.06418285e-01  1.12063996e+00
+ -1.77231493e+00  5.24423092e-01]
+'fit' took 697.85 ms on rank 0
+'error_analysis' took 1675.99 ms on rank 0
+'write_output' took 1796.11 ms on rank 0

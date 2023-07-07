@@ -1,0 +1,44 @@
+no change     /projects/netpub/anaconda3/2022.05/condabin/conda
+no change     /projects/netpub/anaconda3/2022.05/bin/conda
+no change     /projects/netpub/anaconda3/2022.05/bin/conda-env
+no change     /projects/netpub/anaconda3/2022.05/bin/activate
+no change     /projects/netpub/anaconda3/2022.05/bin/deactivate
+no change     /projects/netpub/anaconda3/2022.05/etc/profile.d/conda.sh
+no change     /projects/netpub/anaconda3/2022.05/etc/fish/conf.d/conda.fish
+no change     /projects/netpub/anaconda3/2022.05/shell/condabin/Conda.psm1
+no change     /projects/netpub/anaconda3/2022.05/shell/condabin/conda-hook.ps1
+no change     /projects/netpub/anaconda3/2022.05/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /projects/netpub/anaconda3/2022.05/etc/profile.d/conda.csh
+no change     /ascldap/users/adrohsk/.bashrc
+No action taken.
+Random sampling of groups toggled on.
+FitSNAP-generated seed for random sampling: 89646
+
+WARNING: Bulk train size 1 + test size 1 > nfiles 1
+         Forcing testing size to add up properly.
+
+'scrape_configs' took 450.29 ms on rank 0
+>>> Creating shared arrays
+>>> Created shared arrays
+'process_configs' took 2457.32 ms on rank 0
+printing fit:  [ 9.58840739e-01  7.35244510e-01  1.45780110e+00 -9.37180426e+00
+  4.25178639e+00  2.87742738e-01  5.86229671e-02  3.39544062e+00
+ -8.02118467e+00 -6.05070348e-01 -1.87514973e+01 -2.05553741e+00
+  1.07610959e+01  1.74805862e+01  2.82207970e+01  1.31017161e+00
+ -5.96802107e+00 -7.44802500e+00 -2.73355215e+00  1.58049586e+01
+  3.10506249e+01  1.44181445e+01 -5.38242153e+00 -3.86860008e+01
+ -6.14630293e+01  1.89441780e-01 -2.52016347e-01  1.92215102e-01
+ -1.74283999e-01 -1.33628002e+00  3.47401387e+00  5.14421369e-01
+  1.83491270e+00 -1.79776145e+00  3.34329230e-01  1.17322742e+00
+ -1.10308098e+01 -2.57463496e+00  4.25178328e+00 -2.37774031e+00
+  5.57821163e+00 -4.90881536e+00  1.19383904e+01 -4.01239753e+01
+  2.58383144e+01 -5.22794413e+01  4.42143841e+01  6.87103039e+01
+ -8.63307815e+01  6.67933547e+01 -7.84425051e+00  6.16690416e+00
+  1.00541396e+01  6.32655962e+01 -1.06767169e+01 -3.01834329e+01
+ -7.09927055e+00 -7.35632848e+01 -2.57325362e+01  6.74846451e+01
+  9.48618054e-01 -3.90947618e+00  1.68192721e+00 -1.27186284e+00
+ -7.81219682e+00  7.04075637e+00 -1.02715805e+01  5.26816994e+00
+ -1.39705156e+01  2.88138560e+00]
+'fit' took 493.45 ms on rank 0
+'error_analysis' took 1349.05 ms on rank 0
+'write_output' took 1759.75 ms on rank 0

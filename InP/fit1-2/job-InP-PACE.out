@@ -1,0 +1,40 @@
+no change     /projects/netpub/anaconda3/2022.05/condabin/conda
+no change     /projects/netpub/anaconda3/2022.05/bin/conda
+no change     /projects/netpub/anaconda3/2022.05/bin/conda-env
+no change     /projects/netpub/anaconda3/2022.05/bin/activate
+no change     /projects/netpub/anaconda3/2022.05/bin/deactivate
+no change     /projects/netpub/anaconda3/2022.05/etc/profile.d/conda.sh
+no change     /projects/netpub/anaconda3/2022.05/etc/fish/conf.d/conda.fish
+no change     /projects/netpub/anaconda3/2022.05/shell/condabin/Conda.psm1
+no change     /projects/netpub/anaconda3/2022.05/shell/condabin/conda-hook.ps1
+no change     /projects/netpub/anaconda3/2022.05/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /projects/netpub/anaconda3/2022.05/etc/profile.d/conda.csh
+no change     /ascldap/users/adrohsk/.bashrc
+No action taken.
+Random sampling of groups toggled on.
+FitSNAP-generated seed for random sampling: 69445
+
+WARNING: Bulk train size 1 + test size 1 > nfiles 1
+         Forcing testing size to add up properly.
+
+'scrape_configs' took 477.48 ms on rank 0
+>>> Creating shared arrays
+>>> Created shared arrays
+'process_configs' took 2599.30 ms on rank 0
+printing fit:  [  2.04446907  -0.97372265  -0.43702527  -1.44935849   4.23277029
+  -0.30928434   2.14676076   2.78649565  -4.71841268  -3.49870409
+ -15.16056268  -4.89094335   8.75331653  21.4094883   25.83696795
+   1.72584803  -6.77010364  -6.84077257  -3.08420696  16.14390031
+  30.17767433  14.83587606  -4.64747811 -41.36254834 -59.69136206
+   0.17007196  -0.32287093   0.11950601  -0.19816835  -1.08961838
+   2.96394552   0.66975537   1.62069065  -1.30577913   0.21437629
+   0.39185744  -9.25068119  -2.61635765   4.23278313  -0.14580358
+   5.95735199  -7.19242325  11.97623617 -41.61097798  27.3220903
+ -53.57400091  45.91913663  70.45371051 -89.74697117  67.98069827
+  -9.49569793   8.74754435   8.50257815  65.65980978 -12.1848362
+ -27.40780072  -8.54112265 -71.73236075 -31.44082974  68.5062015
+   0.72851967  -2.96393447   1.11616276  -0.85502275  -5.9318888
+   3.63700184  -8.50368094   3.4900139  -10.05380025   1.91065015]
+'fit' took 492.39 ms on rank 0
+'error_analysis' took 1350.07 ms on rank 0
+'write_output' took 1777.48 ms on rank 0
